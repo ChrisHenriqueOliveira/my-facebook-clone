@@ -1,5 +1,9 @@
-# my typing game
-Game to test how fast you can type text without missing any letters
+# my facebook clone
+Facebook redesign development using ReactJS.
+
+Inspired by the layout: https://figmaelements.com/facebook-redesign/.
+
+Credit: Mujtaba Jaffari 
 
 ##under development
 
