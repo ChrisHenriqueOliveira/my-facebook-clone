@@ -26,6 +26,8 @@ export const Container = styled.div`
     width: 100%;
     max-width: 620px;
 
+    margin-left: 75px;
+
     ul {
       list-style-type: none;
 
