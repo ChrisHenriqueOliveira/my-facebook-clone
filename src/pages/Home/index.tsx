@@ -17,9 +17,7 @@ const Dashboard: React.FC = () => {
       </div>
       <div className="main" />
       <div className="right-side">
-        {/* <Stories /> */}
-        <GroupPlan />
-        <OnlineContacts />
+        <Stories />
       </div>
     </Container>
   );

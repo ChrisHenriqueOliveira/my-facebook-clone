@@ -20,21 +20,36 @@ export const Container = styled.div`
   }
 
   .main {
-    display: flex;
+    /* display: flex;
 
     width: 100%;
     max-width: 800px;
 
-    margin: 25px auto;
+    margin: 25px auto; */
+
+    margin: 25px;
     background-color: blue;
+    flex-grow: 1;
+    flex-shrink: 1;
+    padding-right: 32px;
+    padding-left: 32px;
+    align-items: stretch;
+    min-width: 0;
+    display: flex;
+    position: relative;
+    flex-wrap: nowrap;
+    flex-basis: 744px;
+    box-sizing: border-box;
+    justify-content: center;
+    font-family: inherit;
   }
 
   .right-side {
     display: flex;
     flex-direction: column;
 
-    width: 90%;
-    max-width: 275px;
+    width: 100%;
+    max-width: 365px;
     margin: 25px 25px 25px 0;
     margin-right: 100px;
   }
@@ -56,7 +71,6 @@ export const Container = styled.div`
     }
 
     .main {
-      max-width: 1000px;
       margin: 25px;
     }
   }
